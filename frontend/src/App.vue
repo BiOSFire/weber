@@ -4,4 +4,4 @@
   </div>
 </template>
 
-<style></style>
+<style src="./assets/style/styles.css"></style>
