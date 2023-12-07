@@ -2,13 +2,20 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import MainRightComponent from './components/MainRightComponent.vue';
-import MainLeftComponent from './components/MainLeftComponent.vue';
-import MainMidComponent from './components/MainMidComponent.vue';
+
+import SearchBarComponent from './common/searchbar/SearchBarComponent.vue';
+import RightSidebarComponent from './home/components/RightSidebarComponent.vue';
+import LeftSidebarComponent from './home/components/LeftSidebarComponent.vue';
+import HeaderComponent from './home/components/HeaderComponent.vue';
 
 const app = createApp(App);
-app.component('main-right-component', MainRightComponent);
-app.component('main-left-component', MainLeftComponent);
-app.component('main-mid-component', MainMidComponent);
+
+//common
+app.component('search-bar-component', SearchBarComponent);
+
+//home
+app.component('right-sidebar-component', RightSidebarComponent);
+app.component('left-sidebar-component', LeftSidebarComponent);
+app.component('header-component', HeaderComponent);
 
 app.use(store).use(router).mount('#app');
