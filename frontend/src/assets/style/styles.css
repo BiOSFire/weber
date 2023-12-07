@@ -18,22 +18,53 @@ body {
   min-width: 100vw;
 }
 /* Navbar settings */
-.nav-box {
-  height: 400px;
+.main-left-box,
+.main-right-box {
+  width: 20%;
+  height: 300px;
 }
-button {
+.main-mid-box {
+  width: auto;
+  border-bottom: 1px solid var(--dark-color);
+}
+
+.content-wrapper {
+  width: 38%;
+  border: 1px solid var(--dark-color);
+}
+
+button,
+.bi,
+input,
+h5 {
   background: transparent;
   border: none;
   color: var(--web-color);
-  transition: 0.6s;
+  transition: 0.3s;
 }
 
 button:hover {
   background-color: var(--web-color);
   color: var(--darkest-color);
-  transition: 0.6s;
+  transition: 0.3s;
+}
+button:hover .bi {
+  color: var(--darkest-color);
+  transition: 0.3s;
+}
+.btn-top:hover {
+  background-color: var(--dark-color);
+  color: var(--web-color);
 }
 
-.home {
-  width: 70%;
+/* Search bar */
+.search-bar,
+.obs-too-box {
+  background: var(--dark-color);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }

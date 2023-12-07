@@ -1,11 +1,11 @@
 <template>
-  <div class="d-flex flex-column">
-    <nav-top-component />
-    <div class="d-flex flex-row">
-      <observation-props-component />
-      <div class="home fs-1"></div>
-      <navigation-component />
+  <div class="d-flex flex-row justify-content-center">
+    <main-left-component />
+    <div class="content-wrapper d-flex flex-column">
+      <main-mid-component />
+      <div class="content">Content</div>
     </div>
+    <main-right-component />
   </div>
 </template>
 
