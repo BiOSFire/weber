@@ -7,7 +7,7 @@
     <div
       class="obs-too-box d-flex align-items-start justify-content-start fw-bold flex-column p-3 gap-3 mt-4 position-sticky top-0 rounded-4 w-75 h-100"
     >
-      <h4 class="m-0 p-0">Zaobserwuj również</h4>
+      <h5 class="m-0 p-0">Zaobserwuj również</h5>
     </div>
   </div>
 </template>

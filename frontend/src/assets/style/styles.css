@@ -36,7 +36,7 @@ body {
 button,
 .bi,
 input,
-h4 {
+h5 {
   background: transparent;
   border: none;
   color: var(--web-color);
