@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column">
     <nav-top-component />
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-row justify-content-center">
       <observation-props-component />
       <div class="home fs-1"></div>
       <navigation-component />

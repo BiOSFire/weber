@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <div class="obs-prop-box">chuj</div>
 </template>
