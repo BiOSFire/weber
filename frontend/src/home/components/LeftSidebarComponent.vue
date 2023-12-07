@@ -1,5 +1,5 @@
 <template>
-  <div class="main-left-box d-flex flex-column me-4 mt-2">
+  <div class="left-sidebar d-flex flex-column me-4 mt-2">
     <div class="d-flex flex-row gap-3">
       <button class="btn-top rounded-2 fs-5 p-2">
         <i class="bi bi-bell-fill"></i>
@@ -24,6 +24,9 @@
     </div>
   </div>
 </template>
-
-<scr setup lang="ts">
-</scr>
+<style scoped>
+.left-sidebar {
+  width: 20%;
+  height: 300px;
+}
+</style>

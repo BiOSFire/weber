@@ -17,21 +17,6 @@ body {
   min-height: 100vh;
   min-width: 100vw;
 }
-/* Navbar settings */
-.main-left-box,
-.main-right-box {
-  width: 20%;
-  height: 300px;
-}
-.main-mid-box {
-  width: auto;
-  border-bottom: 1px solid var(--dark-color);
-}
-
-.content-wrapper {
-  width: 38%;
-  border: 1px solid var(--dark-color);
-}
 
 button,
 .bi,
@@ -51,20 +36,4 @@ button:hover {
 button:hover .bi {
   color: var(--darkest-color);
   transition: 0.3s;
-}
-.btn-top:hover {
-  background-color: var(--dark-color);
-  color: var(--web-color);
-}
-
-/* Search bar */
-.search-bar,
-.obs-too-box {
-  background: var(--dark-color);
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
 }
