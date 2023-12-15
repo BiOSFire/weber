@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row justify-content-center">
+  <div class="d-flex flex-row justify-content-between">
     <left-sidebar-component />
     <div class="content-wrapper d-flex flex-column">
       <header-component />
@@ -13,6 +13,7 @@
 <style>
 .content-wrapper {
   width: 38%;
-  border: 1px solid var(--dark-color);
+  margin-left: 5%;
+  margin-right: 1%;
 }
 </style>
