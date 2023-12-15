@@ -12,5 +12,6 @@
 .right-sidebar {
   width: 20%;
   height: 300px;
+  margin-right: 5%;
 }
 </style>

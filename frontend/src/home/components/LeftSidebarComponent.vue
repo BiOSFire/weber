@@ -1,6 +1,6 @@
 <template>
-  <div class="left-sidebar d-flex flex-column me-4 mt-2">
-    <div class="d-flex flex-row gap-3">
+  <div class="left-sidebar d-flex flex-column mt-2">
+    <div class="d-flex flex-row gap-3 align-items-center">
       <button class="btn-top rounded-2 fs-5 p-2">
         <i class="bi bi-bell-fill"></i>
       </button>
@@ -21,6 +21,9 @@
       <button class="p-2 rounded-2 fs-5">
         <i class="bi bi-gear-fill pe-2"></i>Ustawienia
       </button>
+      <button class="p-2 rounded-2 fs-5">
+        <i class="bi bi-plus-square-fill pe-2"></i>POST
+      </button>
     </div>
   </div>
 </template>
@@ -28,5 +31,6 @@
 .left-sidebar {
   width: 20%;
   height: 300px;
+  margin-left: 1%;
 }
 </style>

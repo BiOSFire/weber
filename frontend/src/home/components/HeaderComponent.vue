@@ -10,7 +10,7 @@
 <style scoped>
 .header {
   width: auto;
-  border-bottom: 1px solid var(--dark-color);
+  border-bottom: 2px solid var(--dark-color);
 }
 .btn-top:hover {
   background-color: var(--dark-color);
