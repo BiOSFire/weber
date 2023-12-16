@@ -4,8 +4,8 @@ import router from './router';
 import store from './store';
 
 import SearchBarComponent from './common/searchbar/SearchBarComponent.vue';
-import RightSidebarComponent from './home/components/RightSidebarComponent.vue';
-import LeftSidebarComponent from './home/components/LeftSidebarComponent.vue';
+import RightSidebarComponent from './common/sidebars/RightSidebarComponent.vue';
+import LeftSidebarComponent from './common/sidebars/LeftSidebarComponent.vue';
 import HeaderComponent from './home/components/HeaderComponent.vue';
 
 const app = createApp(App);
