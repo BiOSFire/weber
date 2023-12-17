@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column align-items-center">
     <div
-      class="profil-background d-flex justify-content-center align-items-center z-0"
+      class="profil-background d-flex justify-content-center align-items-center z-0 rounded-bottom-3"
     >
       Backgorund
     </div>
@@ -14,7 +14,7 @@
         </div>
         <div class="nick">Nick</div>
       </div>
-      <div class="followers d-flex flex-row justify-content-between my-3">
+      <div class="followers d-flex flex-row justify-content-between my-2">
         <span class="followers-number mx-2">Followers</span>
         <span class="followers-number mx-2">Following</span>
       </div>
@@ -24,23 +24,27 @@
 <style scoped>
 .profil-background {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: #b6bbc4;
 }
 .profil {
   width: 100%;
-  height: 160px;
 }
 .profil-image {
   width: 125px;
   height: 125px;
   background-color: #f0ece5;
+  border: 2px solid #31304d;
 }
 .profil-content {
-  top: -15%;
+  top: -22%;
+  height: 140px;
 }
 .followers {
   width: 35%;
+  color: #f0ece5;
+}
+.nick {
   color: #f0ece5;
 }
 </style>
