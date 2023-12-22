@@ -31,8 +31,16 @@
         ></i
         >Twój Profil
       </button>
-      <button class="p-2 rounded-2 fs-5">
-        <i class="bi bi-chat-fill pe-2"></i>Wiadomości
+      <button
+        class="p-2 rounded-2 fs-5"
+        :class="{ 'active-button': $route.name === 'messages' }"
+        @click="$router.push({ name: 'messages' })"
+      >
+        <i
+          class="bi bi-chat-fill pe-2"
+          :class="{ 'active-button': $route.name === 'messages' }"
+        ></i
+        >Wiadomości
       </button>
       <button class="p-2 rounded-2 fs-5">
         <i class="bi bi-gear-fill pe-2"></i>Ustawienia

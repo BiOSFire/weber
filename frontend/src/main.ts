@@ -9,6 +9,7 @@ import LeftSidebarComponent from './home/components/LeftSidebarComponent.vue';
 import HeaderComponent from './home/components/HeaderComponent.vue';
 import ProfilComponent from './profil/components/ProfilComponent.vue';
 import ImageComponent from './profil/components/ImageComponent.vue';
+import MessagesBarComponent from './messages/components/MessagesBarComponent.vue';
 
 const app = createApp(App);
 
@@ -21,5 +22,6 @@ app.component('left-sidebar-component', LeftSidebarComponent);
 app.component('header-component', HeaderComponent);
 app.component('profil-component', ProfilComponent);
 app.component('image-component', ImageComponent);
+app.component('messages-bar-component', MessagesBarComponent);
 
 app.use(store).use(router).mount('#app');

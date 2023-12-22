@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import HomeView from '../home/HomeView.vue';
 import ProfilView from '../profil/ProfilView.vue';
+import MessagesView from '../messages/MessagesView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/profil',
     name: 'profil',
     component: ProfilView,
+  },
+  {
+    path: '/messages',
+    name: 'messages',
+    component: MessagesView,
   },
 ];
 
